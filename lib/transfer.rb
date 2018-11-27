@@ -13,8 +13,7 @@ class Transfer
 
 
   def valid?(sender, receiver)
-    sender.bankaccount.valid?
-
+    
   end
 
 
