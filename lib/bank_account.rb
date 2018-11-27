@@ -22,6 +22,7 @@ class BankAccount
   end
 
   def close_account
+    binding.pry
     
   end
 
