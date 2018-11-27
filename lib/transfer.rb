@@ -1,6 +1,6 @@
 class Transfer
 
-  attr_accessor :sender, :receiver, :amount, :status
+  attr_accessor :sender, :receiver, :amount, :status, :BankAccount
   attr_reader
 
 
@@ -10,6 +10,12 @@ class Transfer
     @amount = amount
     @status = "pending"
   end
+
+
+  def valid?
+
+  end
+
 
 
 end
