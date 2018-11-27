@@ -12,7 +12,6 @@ class Transfer
   end
 
   def valid?
-    bindng.pry
     @sender.valid?
     @receiver.valid?
   end
