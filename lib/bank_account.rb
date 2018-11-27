@@ -17,7 +17,7 @@ class BankAccount
     "Your balance is $#{@balance}."
   end
 
-  def valid?(name)
+  def valid?
     binding.pry
     if @status == "open" && @balance > 0
      else
