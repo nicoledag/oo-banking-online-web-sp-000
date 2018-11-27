@@ -13,7 +13,7 @@ class Transfer
 
 
   def valid?
-    BankAccount.valid?
+    bankaccount.valid?
   end
 
 
