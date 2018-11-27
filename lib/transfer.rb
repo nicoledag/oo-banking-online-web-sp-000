@@ -1,6 +1,6 @@
 class Transfer
 
-  attr_accessor :sender, :receiver, :amount, :status
+  attr_accessor :sender, :receiver, :amount, :status, :bankaccount
   attr_reader
 
 
